@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>KodeLabs</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500' rel='stylesheet' type='text/css'>
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<!--     <div class="hero-unit">
+      <h1>'Allo, 'Allo!</h1>
+      <p>You now have</p>
+      <ul>
+        <li>HTML5 Boilerplate</li>
+        <li>Sass</li>
+      </ul>
+    </div> -->
+
+    <nav class="cf">
+      <div class="logo">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 205 31" enable-background="new 0 0 205 31" xml:space="preserve">
+          <g>
+            <path fill="#E71448" d="M68.1,17.9l-1.9,2.4v7.8h-5.5V2.1h5.5v11.2L74,2.1h6.7l-9.1,11.4l9.7,14.7h-6.9L68.1,17.9z"/>
+            <path fill="#E71448" d="M80.8,15.2c0-8,2.2-13.6,10.4-13.6s10.4,5.6,10.4,13.6c0,8-2.2,13.6-10.4,13.6S80.8,23.1,80.8,15.2z  M86.4,15.2c0,6.1,1.3,8.5,4.8,8.5c3.4,0,4.8-2.4,4.8-8.5c0-6.1-1.3-8.5-4.8-8.5C87.7,6.6,86.4,9.1,86.4,15.2z"/>
+            <path fill="#E71448" d="M104.2,28.2V2.1h8.5c8.9,0,11.2,5.6,11.2,13.1c0,7.4-2.3,13.1-11.2,13.1H104.2z M109.7,23.1h3 c4.1,0,5.3-2.9,5.3-8c0-5-1.2-8-5.3-8h-3V23.1z"/>
+            <path fill="#E71448" d="M141.8,17.2h-10.1v5.9h11.1v5.1h-16.7V2.1h16.7v5.1h-11.1v5.1h10.1V17.2z"/>
+          </g>
+
+          <g>
+            <path fill="#00253D" d="M155.7,2.3l-5,19.5c-0.2,0.7-0.4,1.8-0.4,2.3c0,0.3,0,0.6,0,0.8l3.5-0.5v1.7l-7.3,2.5 c-0.4-0.5-0.5-1.3-0.5-2.3c0-0.6,0.2-2.2,0.5-3.2l5.4-20.4l-3.4-0.5l0.4-1.7l7.7-0.4L155.7,2.3z"/>
+            <path fill="#00253D" d="M169.7,20.3c-0.4,1.6-0.7,3.3-0.7,3.9c0,0.3,0,0.6,0.1,0.8l3.5-0.6v1.7l-7.1,2.5c-0.2-0.4-0.4-1.3-0.4-1.9 c0-0.4,0.2-1.3,0.2-1.7l-0.1,0c-1.7,0.6-5.4,2.6-7,3.7c-0.7-0.1-1.9-0.6-1.9-0.6c-0.4-0.9-0.6-2.4-0.6-3.8 c0-5.9,4.6-12.1,9.3-13.7c0.9,0,3.9,0.4,5.2,0.7l2.1-1.9l0.6,0.2C172,12.5,170.4,17.6,169.7,20.3z M164.7,12.8 c-3,2.1-5.2,6.7-5.2,10.6c0,0.6,0.1,1.4,0.2,1.9l5.8-1.9c0.4-2.7,1.7-7,2.8-9.8L164.7,12.8z"/>
+            <path fill="#00253D" d="M183.2,28.6c-2.8-0.2-6.4-1-8.7-2.3c1.9-5.7,5.4-18.6,6.4-23.6l-3.4-0.5l0.4-1.7l7.2-0.4 c-0.6,3.2-2.3,10-3.4,13.7h0.1c1.8-0.9,5.3-2.6,7.1-3.4c1,0.2,2.5,0.7,2.5,0.7c0.4,0.8,0.6,2.4,0.6,3.8 C191.9,20.7,188,26.8,183.2,28.6z M187.7,13.4c-1.9,0.5-6.3,2.3-6.3,2.3l-2.6,9c0.9,0.6,3,1.5,3.7,1.7c2.9-2,5.4-6.9,5.4-11.3 C187.9,14.5,187.8,13.7,187.7,13.4z"/>
+            <path fill="#00253D" d="M204.4,13.6c-1-0.5-2.9-0.9-3.9-0.9c-0.5,0-1.2,0-1.5,0.1c-0.4,0.5-0.7,1.1-0.7,1.7c0,3,4.7,4.9,4.7,8.5 c0,3.3-3.4,5.6-6.5,5.6c-1.5,0-3.1-0.3-4.4-1l0.7-2.8c1.1,1,3.4,1.6,4.8,1.6c0.3,0,0.8,0,1.1-0.1c0.4-0.5,0.7-1,0.7-1.7 c0-2.9-4.7-4.6-4.7-8.7c0-3.7,4.5-5.5,7.2-5.5c0.9,0,2.2,0.2,2.9,0.4L204.4,13.6z"/>
+          </g>
+          <g>
+            <path fill="#E71448" d="M20,3.1H0V0.9h20V3.1z"/>
+            <path fill="#E71448" d="M14.5,8.6H3.3V6.4h11.1V8.6z"/>
+            <path fill="#E71448" d="M17.8,19.8H6.7v-2.2h11.1V19.8z"/>
+            <path fill="#E71448" d="M48.9,19.8H34.5v-2.2h14.5V19.8z"/>
+            <path fill="#E71448" d="M11.1,25.3H0v-2.2h11.1V25.3z"/>
+            <path fill="#E71448" d="M23.3,30.9h-20v-2.2h20V30.9z"/>
+            <path fill="#E71448" d="M35.6,30.9h-8.9v-2.2h8.9V30.9z"/>
+            <path fill="#E71448" d="M45.6,30.9h-6.7v-2.2h6.7V30.9z"/>
+            <path fill="#E71448" d="M45.6,8.6H32.2V6.4h13.3V8.6z"/>
+            <path fill="#E71448" d="M23.3,14.2H6.7V12h16.7V14.2z"/>
+          </g>
+          <g>
+            <path fill="#00253D" d="M32.2,3.1h-8.9V0.9h8.9V3.1z"/>
+            <path fill="#00253D" d="M42.2,3.1h-6.7V0.9h6.7V3.1z"/>
+            <path fill="#00253D" d="M28.9,8.6H17.8V6.4h11.1V8.6z"/>
+            <path fill="#00253D" d="M40,14.2H27.8V12H40V14.2z"/>
+            <path fill="#00253D" d="M32.2,19.8H21.1v-2.2h11.1V19.8z"/>
+            <rect x="14.5" y="23.1" fill="#00253D" width="11.1" height="2.2"/>
+            <rect x="27.8" y="23.1" fill="#00253D" width="14.5" height="2.2"/>
+          </g>
+        </svg>
+      </div>
+      <div class="icon-nav">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 24" enable-background="new 0 0 40 24" xml:space="preserve">
+        <g>
+          <rect fill-rule="evenodd" clip-rule="evenodd" fill="#E71448" width="40" height="4"/>
+          <rect y="10" fill-rule="evenodd" clip-rule="evenodd" fill="#E71448" width="40" height="4"/>
+          <rect y="20" fill-rule="evenodd" clip-rule="evenodd" fill="#E71448" width="40" height="4"/>
+        </g>
+        </svg>
+
+      </div>
+    </nav>
+    <section class="hero">
+      <h1>We code simple and powerfull apps.</h1>
+    </section>
+    <section class="blok about">
+      <h2>Our workflow</h2>
+      <div class="boxes cf">
+          <div class="box">
+            <img src="images/slika.jpg" alt="">
+            <p>Functional e-tailers before wireless processes. Credibly extend standards.</p>
+          </div>
+          
+          <div class="box">
+            <img src="images/slika.jpg" alt="">
+            <p>Functional e-tailers before wireless processes. Credibly extend standards.</p>
+          </div>
+          
+          <div class="box">
+            <img src="images/slika.jpg" alt="">
+            <p>Functional e-tailers before wireless processes. Credibly extend standards.</p>
+          </div>
+      </div>
+    </section>
+
+    <section class="blok projects">
+      <h2>Projects</h2>
+      <div class="kocke cf">
+        <img src="images/projekt.jpg" alt="" class="kocka">
+        <img src="images/projekt.jpg" alt="" class="kocka">
+        <img src="images/projekt.jpg" alt="" class="kocka">
+      </div>
+    </section>
+
+    <section class="blok contact">
+      <h2>Contct us</h2>
+      <div class="form">
+        <form method="POST"> <!-- action="http://forms.brace.io/railixon@gmail.com" -->
+        <div class="input cf">
+          <input type="text" placeholder="Your name" id="name">
+          <input type="text" placeholder="Your email" id="email">
+          <textarea name="" id="tex" placeholder="Your message"></textarea>
+        </div>
+          <input type="submit" value="Send" class="btn">
+        </form>
+      </div>
+    
+
+    </section>
+
+  <footer>
+    <div class="wrap">
+      <p>Copyright &copy 2014 KODElabs. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="scripts/jqfloat.min.js"></script>
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
